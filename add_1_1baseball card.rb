@@ -6,20 +6,20 @@
 русском языке - карточка из картотеки).
 =end
 puts "Your age?"
-age = gets
+age_1 = gets
 puts "Your place of birth?"
-birth = gets 
+birth_1 = gets 
 puts "Your number phone?"
-phone = gets 
+phone_1 = gets 
 puts "Your age?"
-age = gets
+age_2 = gets
 puts "Your place of birth?"
-birth = gets 
+birth_2 = gets 
 puts "Your number phone?"
-phone = gets
+phone_2 = gets
 puts "Your age?"
-age = gets
+age_3 = gets
 puts "Your place of birth?"
-birth = gets 
+birth_3 = gets 
 puts "Your number phone?"
-phone = gets 
+phone_3 = gets 
