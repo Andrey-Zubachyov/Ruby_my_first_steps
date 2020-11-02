@@ -21,8 +21,8 @@ puts "Your age is " + age
 # Типы данных
 # Data types
 
-Тип объекта 123 - Integer
-(целое число). Тип объекта "blabla" - String (строка). Тип любого объекта можно получить добавив в конце `.class`.
+# Тип объекта 123 - Integer
+# (целое число). Тип объекта "blabla" - String (строка). Тип любого объекта можно получить добавив в конце `.class`.
 
 =begin
 Задание:
@@ -56,14 +56,12 @@ p 3.14.class # => Float - Число с плавающей запятой
 p 123.class.class # =>Class
 
 
-
-
 # Все в руби - объект
 # Everything in Ruby - Object
 
-Известно, что `123.class` возвращает Integer, `"blabla".class` возвращает String. Но у
-объекта (Object) существует также метод `is_a?`, который возвращает истину или ложь,
-если передать определенный параметр в этот метод:
+#Известно, что `123.class` возвращает Integer, `"blabla".class` возвращает String. Но у
+#объекта (Object) существует также метод `is_a?`, который возвращает истину или ложь,
+#если передать определенный параметр в этот метод:
 
 p 123.is_a?(Integer) #=> true
 p 123.is_a?(Integer) #=> false
@@ -78,5 +76,5 @@ p 123.is_a?(Object) #=> true
 
 puts "Your age?"
 age = gets #“get string”
-age_months = age * 12
-puts "Your age is " + age_months
+age_months = age.to_i * 12
+puts "Your age is " + age_months.to_s
