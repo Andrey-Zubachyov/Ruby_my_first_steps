@@ -25,10 +25,3 @@ user-password-expiration-date. Иногда используется в HTML, в
 атрибутах. Например: `<input type="text" name="login" data-error-highlight-input type="text" name="login" data-error-highlightcolor="
 red">`.
 =end
-#Задание:
-=begin
-написать программу, которая подряд спрашивает год рождения, место
-рождения, номер телефона трех клиентов, после чего выводит полученную информацию
-полностью в виде “карточек” (в англ.языке это бы называлось baseball card, аналогия в
-русском языке - карточка из картотеки).
-=end
