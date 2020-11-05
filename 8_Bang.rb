@@ -1,8 +1,3 @@
-Andrey Zubachyov <zubachyov@gmail.com>
-	
-12:34 (8 часов назад)
-	
-кому: gedemin
 #Bang!
 #Bang, exclamation mark, восклицательный знак или просто `!` в конце какого-либо метода.
 
