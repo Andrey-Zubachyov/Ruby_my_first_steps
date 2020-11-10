@@ -76,5 +76,24 @@ end
 процентов по кредиту за 30 лет.
 =end
 
+puts 'House value 500K dollars.'
+cost = 500_000
+puts
+puts 'Man takes on credit at the rate of 4% per annum.'
+rate = 0.04
+
+sum = 0
+
+puts
+
+30.times do |i|
+        n = cost * rate
+        cost = cost - n
+        puts "left to pay for #{i + 1} year #{cost.round(2)} dollars"
+        puts
+        sum = sum + n
+        puts "Total paid for the #{i + 1} year #{sum.round(2)} "
+        puts
+end
 
 
