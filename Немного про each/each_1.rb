@@ -1,0 +1,11 @@
+#encoding: cp866
+
+arr = ['word']
+
+arr.each do |word|
+puts "В слове #{word} #{word.size} букв"
+end
+
+
+gets
+
