@@ -33,21 +33,25 @@ red">`.
 полностью в виде “карточек” (в англ.языке это бы называлось baseball card, аналогия в
 русском языке - карточка из картотеки).
 =end
-puts "Your age?"
+puts "1Your age?"
 age_1 = gets
-puts "Your place of birth?"
+puts "1Your place of birth?"
 birth_1 = gets 
-puts "Your number phone?"
+puts "1Your number phone?"
 phone_1 = gets 
-puts "Your age?"
+puts "2Your age?"
 age_2 = gets
-puts "Your place of birth?"
+puts "2Your place of birth?"
 birth_2 = gets 
-puts "Your number phone?"
+puts "2Your number phone?"
 phone_2 = gets
-puts "Your age?"
+puts "3Your age?"
 age_3 = gets
-puts "Your place of birth?"
+puts "3Your place of birth?"
 birth_3 = gets 
-puts "Your number phone?"
+puts "3Your number phone?"
 phone_3 = gets 
+
+puts "Person1 age: #{age_1} // birth: #{birth_1} // phone #{phone_1}"
+puts "Person1 age: #{age_2} // birth: #{birth_2} // phone #{phone_2}"
+puts "Person1 age: #{age_3} // birth: #{birth_3} // phone #{phone_3}"

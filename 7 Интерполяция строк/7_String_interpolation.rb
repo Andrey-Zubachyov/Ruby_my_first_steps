@@ -36,4 +36,4 @@ puts "You'r saves per year will be #{(salary * 0.15) * 12}"
 gets
 puts "You'r saves per five year will be #{(salary * 0.15) * (12 * 5)}"
 
-
+gets

@@ -24,19 +24,20 @@ end
 программу, которая запрашивает длину и ширину участка и выводит на экран его
 стоимость.
 =end
+
 puts 'What size plot on the moon do you want to buy?'
 puts
 puts 'Please indicate widht:'
 widht = gets.strip.to_i
-puts 'Please  indicate length:'
+puts 'Please  indicate length:'
 length = gets.strip.to_i
 square = widht * length
 if square > 50 and square < 100
-    puts 'Your plot on the moon cost 1500 dollars.'
-    elsif square > 100
-    puts "Your plot on the moon cost #{square * 25} dollars."
+    puts 'Your plot on the moon cost 1500 dollars.'
+    elsif square > 100
+    puts "Your plot on the moon cost #{square * 25} dollars."
 else
-    puts 'The plot of the size you specified is not for sale!'
+    puts 'The plot of the size you specified is not for sale!'
 end
 gets
 
@@ -47,3 +48,4 @@ gets
 ответ начисляется 1 балл (переменную можно назвать score). Если набралось 2 или
 более баллов программа должна выводить на экран “Добро пожаловать в США”.
 =end
+

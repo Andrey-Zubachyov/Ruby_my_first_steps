@@ -6,5 +6,5 @@
 #если передать определенный параметр в этот метод:
 
 p 123.is_a?(Integer) #=> true
-p 123.is_a?(Integer) #=> false
+p 123.is_a?(String) #=> false
 p 123.is_a?(Object) #=> true
