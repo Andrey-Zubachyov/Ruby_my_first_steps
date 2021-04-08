@@ -15,7 +15,7 @@ gets
 Задание: создайте массив 5 на 4 и заполните весь массив абсолютно случайными значениями от 0 до 9.
 =end
 
-arr_arr = Array.new(4) { Array.new(5, rand(5)) }
+arr_arr = Array.new(5) { Array.new(4, rand(9)) }
 
 	arr_arr.each do |item|
 		puts "#{item}"
